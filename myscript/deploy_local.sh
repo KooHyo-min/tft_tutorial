@@ -27,6 +27,6 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-
 sudo apt-get -y update
 sudo apt-get -y install postgresql-9.6
 
- # DB 구성
-#sudo -u postgres psql -a -f myscript/create_db.sql
+# DB 구성
+sudo -u postgres psql -a -f myscript/create_db.sql
 
